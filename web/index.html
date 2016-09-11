@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bases de Datos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <script type="text/javascript" src="javascript.js"></script>
+        <p>Nombre de la Base de Datos: 
+            <input type="text" id="nomBase" size="20" /><br/></p>
+        <p>Identificadores: 
+            <select id="identificadores"><option>Selecciona Opcion</option>
+            </select></p>
+        <p>Nombres: 
+            <select id="nombres"><option>Selecciona Opcion</option>
+                <option>Mujeres</option>
+                <option>Hombres</option>
+            </select></p>
+         <p>Apellidos:
+            <select id="apellido"><option>Selecciona Opcion</option>
+                <option>Paterno</option>
+                <option>Materno</option>
+            </select></p>
+          <p>Telefonos:
+              <select id="Telefonos"><option>Selecciona la opcion</option>
+                  <option>telefono casa</option>
+                  <option> celular</option>
+               </select></p>
+          <p>Localizacion:
+              <select id="loca"><option>pais</option>
+                  <option></option>
+              </select><p>
+          <div id="resultado"></div>
+          <div id="campo"><p><input type="button" value="Agregar Campo" onclick="agregarCampo(); "/></p></div>  
+          <p><input type="button" value="Crear Base" onclick="crearBase();" /></p>
+    </body>
+</html>
